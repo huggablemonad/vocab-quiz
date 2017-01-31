@@ -1,0 +1,66 @@
+
+body
+{
+  font-size : large;
+}
+
+#main
+{
+  display        : flex;
+  flex-direction : column;
+  margin         : auto auto auto auto;
+  width          : 60%;
+}
+
+#status-bar
+{
+  display         : flex;
+  justify-content : space-between;
+  margin-top      : 1em;
+}
+
+#question
+{
+  font-size : xx-large;
+  margin    : 1em 1em 1em 1em;
+}
+
+#answers
+{
+  font-size : xx-large;
+}
+
+label
+{
+  display      : block;
+  margin-left  : 1em;
+  margin-right : 1em;
+}
+
+label:hover
+{
+  background-color : #add8e6;
+}
+
+.feedback
+{
+  font-size : xx-large;
+  margin    : 1em 1em 1em 1em;
+}
+
+#next-question
+{
+  font-size      : xx-large;
+  padding-bottom : 0.5rem;
+  padding-top    : 0.5rem;
+  width          : 100%;
+}
+
+#game-over
+{
+  font-size : xx-large;
+  margin    : 1em 1em 1em 1em;
+}
+
+
+/* Generated with Clay, http://fvisser.nl/clay */
